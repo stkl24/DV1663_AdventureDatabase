@@ -9,5 +9,9 @@ All queries used to create the database, tables, inserting data etc. are all sto
 See file: queries_dnd_database.sql  
 
 To try the Python program, you need to have setup the database correctly.  
+You also need to install mysql connector for python.  
+I have used command:  
+$ pip install mysql-connector-python  
 Then, insert your login credentials in the function main() of the Pyhton code. (See comments in the code).  
-NOTE: code does not currently have any proper error handling, so if it does not work...OOPS!  
+
+NOTE: python code does not currently have any proper error handling, so if it does not work...OOPS!  
